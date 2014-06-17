@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mathias.armstrong@gmail.com"]
   spec.summary       = %q{Translates english into pig latin}
   spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mathiasarmstrong/pig_latin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
