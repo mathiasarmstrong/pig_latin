@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jered McCullough"]
   spec.email         = ["mathias.armstrong@gmail.com"]
   spec.summary       = %q{Translates english into pig latin}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{this is a project to translate english into pig latin}
   spec.homepage      = "https://github.com/mathiasarmstrong/pig_latin"
   spec.license       = "MIT"
 
