@@ -1,6 +1,6 @@
 
-module pig_latin_translator
-	def pig_latin( user_input )
+module Plt
+	def self.pig_latin( user_input )
 		pig_latinized_words = user_input.split( ' ' ).map do |word|
 			front, back, vwl = "","","aeiou"
 			( front = $&; word.sub!( /\A\W+/, "" ); ) if /\A\W+/ === word
